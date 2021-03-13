@@ -14,6 +14,7 @@ ol {
 }
 img {
   display: block;
+  max-width: 100%;
 }
 .link {
   text-decoration: none;
@@ -49,7 +50,7 @@ body {
 }
 .container {
   align-items: center;
-  width: 940px;
+  width: 960px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -163,19 +164,18 @@ body {
 }
 .skills-list {
   display: flex;
-
   flex-wrap: nowrap;
   align-items: center;
   padding-bottom: 111px;
-  border: 1px red solid;
-  
 }
 
 .skills-list-item {
-  flex-basis: calc(100% / 4 - 0px);
-  display: block;
-  align-items: center;
-  justify-content: center;
+  flex-basis: calc(100% / 4 - 90px);
+
+  margin-left: 90px;
+}
+.skills-list-item:first-child {
+  margin-left: 0px;
 }
 .skills-item-description {
   text-align: center;
@@ -202,6 +202,7 @@ body {
 }
 .skills-icon-list {
   display: flex;
+  align-items: center;
 }
 
 .skills-icon-item {
@@ -216,4 +217,58 @@ body {
 .skills-icon {
   align-items: center;
   justify-content: center;
+}
+.icon-skills {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.description-fotter {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.22;
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 29px;
+}
+
+.contact-btn {
+  display: block;
+  min-width: 150px;
+  height: 42px;
+  background-color: black;
+  color: var(--second-background);
+  align-items: center;
+  text-align: center;
+  border-radius: 25px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.social-list {
+  margin-top: 86px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-list-item {
+  margin-left: 62px;
+}
+.social-list-item:first-child {
+  margin-left: 0px;
+}
+.social-item-icon:hover,
+.social-item-icon:focus {
+  fill: red;
+}
+
+.like-me {
+  font-size: 14px;
+  line-height: 1.22;
+  text-align: center;
+
+  color: #828282;
+  margin-top: 45px;
+  padding-bottom: 104px;
 }
