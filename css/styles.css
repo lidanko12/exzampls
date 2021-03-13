@@ -1,0 +1,219 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+}
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+:root {
+  --main-font: "Open Sans", sans-serif;
+  --main-background: #f6f6f6;
+  --second-background: #ffffff;
+  --main-color: #070707;
+  --second-color: #828282;
+}
+body {
+  font-family: var(--main-font);
+  font-weight: 400;
+  background: var(--main-background);
+}
+/*===========HEADER==========*/
+.header {
+  background-color: var(--second-background);
+  padding-bottom: 32px;
+  border-bottom: 1px solid #828282;
+}
+.navigation-list {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.container {
+  align-items: center;
+  width: 940px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.navigation-list-item {
+  height: 100%;
+}
+.navigation-list-link {
+  display: block;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.2;
+  color: var(--second-color);
+}
+
+.navigation-list-item :hover,
+.navigation-list-item :focus {
+  color: var(--main-color);
+}
+
+/*===========END HEADER==========*/
+
+/*===========HERO==========*/
+.hero {
+  background-color: var(--second-background);
+}
+
+.heroes {
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 50px;
+  padding-top: 40px;
+}
+
+.main-title {
+  font-weight: 700;
+  font-size: 47.3392px;
+  line-height: 59px;
+  color: var(--main-color);
+}
+.hero-desc {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.2;
+  color: var(--main-color);
+  margin-left: 298px;
+}
+.overlay {
+  max-width: 944px;
+  height: 387px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.fon {
+  padding-bottom: 104px;
+}
+.title {
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+/*===========END HERO==========*/
+
+/*===========ABOUT ME==========*/
+
+.about-me-item {
+  padding-top: 50px;
+  text-align: center;
+}
+.about-me-item:first-child {
+  padding-top: 18px;
+}
+.about-me-desc {
+  font-size: 18px;
+  line-height: 1.2;
+  text-align: center;
+}
+.about {
+  max-width: 485px;
+  padding-top: 120px;
+  padding-bottom: 107px;
+  padding-left: 0px;
+  padding-right: 0px;
+  text-align: center;
+}
+
+/*===========END ABOUT ME==========*/
+
+/*===========SKILLS==========*/
+
+.skills {
+  background-color: var(--second-background);
+}
+.title-skills {
+  padding-top: 91px;
+  padding-bottom: 70px;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 1.23;
+  text-align: center;
+}
+.description {
+  padding-bottom: 84px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.22;
+  text-align: center;
+}
+.skills-list {
+  display: flex;
+
+  flex-wrap: nowrap;
+  align-items: center;
+  padding-bottom: 111px;
+  border: 1px red solid;
+  
+}
+
+.skills-list-item {
+  flex-basis: calc(100% / 4 - 0px);
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+.skills-item-description {
+  text-align: center;
+  padding-top: 24px;
+  padding-bottom: 40px;
+}
+.pic-description {
+  padding-top: 45px;
+  padding-bottom: 96px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.22;
+  text-align: center;
+  text-decoration-line: underline;
+}
+
+.title-portfolio {
+  padding-top: 113px;
+  padding-bottom: 47px;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 1.23;
+  text-align: center;
+}
+.skills-icon-list {
+  display: flex;
+}
+
+.skills-icon-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 9px;
+}
+.skills-icon-list :last-child {
+  padding-right: 0px;
+}
+.skills-icon {
+  align-items: center;
+  justify-content: center;
+}
